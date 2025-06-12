@@ -1,0 +1,21 @@
+aside {
+  padding: 1ch;
+  padding-top: 0;
+  min-width: 23ch;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+aside a {
+  background: #4444bb;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  padding: 1ch;
+}
+
+aside a:hover {
+  background: #228;
+}
