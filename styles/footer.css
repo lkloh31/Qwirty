@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background: #4444bb;
+  padding: 2ch;
+
+  color: white;
+  text-align: left;
+  text-underline-offset: 10px;
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+}
