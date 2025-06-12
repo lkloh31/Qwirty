@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #4444bb;
+  padding: 1.5ch;
+  color: white;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+  padding-right: 4px;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+.container,
+.sub-container {
+  display: flex;
+  gap: 5px;
+}
+
+.brand {
+  color: #4444bb;
+  font-size: 2rem;
+}

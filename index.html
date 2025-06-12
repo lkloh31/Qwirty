@@ -12,28 +12,27 @@
   </head>
   <body>
     <header>
-      <p class="brand">Qwirty</p>
-      <nav class="nav-left">
-        <a href="#">Big Deals</a>
-        <a href="#">Top Brands</a>
-        <a href="#">Suggestions</a>
-        <a href="#">Help & Contact</a>
+      <nav>
+        <ul class="container">
+          <a href="#">Big Deals</a>
+          <a href="#">Top Brands</a>
+          <a href="#">Suggestions</a>
+          <a href="#">Help & Contact</a>
+        </ul>
+        <ul class="sub-container">
+          <a href="#">Login/Sign Up</a>
+          <a href="#">Account</a>
+          <a href="#">Shopping Cart</a>
+        </ul>
       </nav>
-      <nav class="nav-right">
-        <a href="#">Login/Sign Up</a>
-        <a href="#">Account</a>
-        <a href="#">Shopping Cart</a>
-      </nav>
-      <nav class="search-bar">
-        <form action="./form-submitted.html">
-          <input type="text" class="search-input" name="search" id="search" />
-          <input type="button" class="search-button" value="submit" />
-        </form>
-      </nav>
-      <nav class="financing">
-        <a href="#">0% Financing 24 Months</a>
-      </nav>
+      <h1 class="brand">Qwirty</h1>
+      <form action="./form-submitted.html">
+        <input type="text" class="search-input" name="search" id="search" />
+        <button class="search-button">Search</button>
+      </form>
+      <a href="#" class="ad">0% Financing 24 Months</a>
     </header>
+
     <main>
       <aside>
         <a href="#">Clothing & Shoes</a>
@@ -46,7 +45,7 @@
         <a href="#">Toys & Baby</a>
         <a href="#">Garden</a>
       </aside>
-      <article class="cardStyle">
+      <article class="card-style">
         <h2>Product Name</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, corporis
@@ -54,7 +53,14 @@
           quae cumque sequi. Architecto dolore laudantium ad provident assumenda
           quae!
         </p>
-        <p>Price: <span>$27.99</span></p>
+        <img
+          src="https://fastly.picsum.photos/id/131/250/300.jpg?hmac=K_C_C1Wzu1w0wj0L01dxulmonqt54xmyLN3yCZwUF2k"
+          alt="random image"
+        />
+        <p>
+          Price: $27.99
+          <button class="add-to-cart">add-to-cart</button>
+        </p>
       </article>
     </main>
     <footer>
