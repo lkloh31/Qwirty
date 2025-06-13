@@ -1,3 +1,12 @@
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Nav top bar */
 nav {
   display: flex;
   flex-direction: row;
@@ -10,7 +19,6 @@ nav {
 
 nav a {
   color: white;
-  text-decoration: none;
   border-right: 1px solid white;
   padding-right: 4px;
 }
@@ -25,7 +33,44 @@ nav a:last-child {
   gap: 5px;
 }
 
+/* Header - below nav bar */
 .brand {
   color: #4444bb;
   font-size: 2rem;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (width >= 600px) {
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+.search-bar {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #4444bb;
+  padding: 0.2rem;
+}
+
+.search-button {
+  background-color: #4444bb;
+  color: white;
+  border: 0;
+  padding: 0.25rem;
+}
+
+.ad {
+  background-color: rgb(227, 1, 1);
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
 }

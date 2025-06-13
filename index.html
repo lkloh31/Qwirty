@@ -25,12 +25,20 @@
           <a href="#">Shopping Cart</a>
         </ul>
       </nav>
-      <h1 class="brand">Qwirty</h1>
-      <form action="./form-submitted.html">
-        <input type="text" class="search-input" name="search" id="search" />
-        <button class="search-button">Search</button>
-      </form>
-      <a href="#" class="ad">0% Financing 24 Months</a>
+      <ul class="bottom container">
+        <h1 class="brand">Qwirty</h1>
+        <form action="./form-submitted.html">
+          <input
+            type="search"
+            class="search-bar"
+            name="search-bar"
+            id="search-bar"
+            placeholder="Search for..."
+          />
+          <button class="search-button">Search</button>
+        </form>
+        <a href="#" class="ad">0% Financing 24 Months</a>
+      </ul>
     </header>
 
     <main>
@@ -45,23 +53,42 @@
         <a href="#">Toys & Baby</a>
         <a href="#">Garden</a>
       </aside>
-      <article class="card-style">
-        <h2>Product Name</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, corporis
-          laboriosam nihil tempore esse, veniam sit vitae beatae natus debitis
-          quae cumque sequi. Architecto dolore laudantium ad provident assumenda
-          quae!
-        </p>
-        <img
-          src="https://fastly.picsum.photos/id/131/250/300.jpg?hmac=K_C_C1Wzu1w0wj0L01dxulmonqt54xmyLN3yCZwUF2k"
-          alt="random image"
-        />
-        <p>
-          Price: $27.99
-          <button class="add-to-cart">add-to-cart</button>
-        </p>
-      </article>
+      <ul class="products">
+        <li class="product-card">
+          <h2>Product Name</h2>
+          <img
+            src="https://fastly.picsum.photos/id/131/250/300.jpg?hmac=K_C_C1Wzu1w0wj0L01dxulmonqt54xmyLN3yCZwUF2k"
+            alt="random image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <footer>
+            Price: $27.99
+            <button class="add-to-cart">Add to cart</button>
+          </footer>
+        </li>
+        <li class="product-card">
+          <h2>Product Name</h2>
+          <img
+            src="https://fastly.picsum.photos/id/131/250/300.jpg?hmac=K_C_C1Wzu1w0wj0L01dxulmonqt54xmyLN3yCZwUF2k"
+            alt="random image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <footer>
+            Price: $27.99
+            <button class="add-to-cart">Add to cart</button>
+          </footer>
+        </li>
+      </ul>
     </main>
     <footer>
       <section class="customer-care footer-nav">
